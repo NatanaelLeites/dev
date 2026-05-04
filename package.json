@@ -1,0 +1,29 @@
+{
+  "name": "dev",
+  "version": "1.0.0",
+  "description": "Portafolio personal",
+  "keywords": [
+    "portafolio",
+    "proyectos",
+    "programacion"
+  ],
+  "homepage": "https://github.com/NatanaelLeites/dev#readme",
+  "bugs": {
+    "url": "https://github.com/NatanaelLeites/dev/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NatanaelLeites/dev.git"
+  },
+  "license": "ISC",
+  "author": "Natanael",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "sass --watch scss/estilos.scss:css/estilos.css"
+  },
+  "devDependencies": {
+    "sass": "^1.99.0"
+  }
+}
