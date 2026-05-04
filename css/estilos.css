@@ -1,7 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+.header {
+  display: flex;
+  justify-content: space-between;
+  color: #bdbdbd;
+}
+.header .saludo {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #bdbdbd;
+}
+.header .social {
+  display: flex;
+}
+.header .social a {
+  margin: 0.4rem 0.4rem;
+  /* i {
+      color: #bdbdbd;
+      font-size: 1.5rem;
+  } */
+}
+.header .social a img {
+  transition: all 0.3s;
+  height: 1.7rem;
+  /* mask-image: linear-gradient(to bottom, #000000 50%, rgba(0, 0, 0, 0.114) 90%); */
+}
+.header .social a img:hover {
+  transform: scale(0.85);
+}
+.header .social .reloj {
+  font-size: 2rem;
+  padding-left: 3rem;
+  /* mask-image: linear-gradient(to bottom, black, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, black, transparent 100%); */
+}
+.header .social .fecha {
+  font-size: 0.8rem;
+  padding-left: 0.2rem;
+  margin-top: 0.5rem;
+  /* mask-image: linear-gradient(to bottom, black, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, black, transparent 100%); */
+}
+
+.nav {
+  padding: 1rem;
+  position: fixed;
+  bottom: 1rem;
+  left: 30%;
+  right: 30%;
+  text-align: center;
+  background-color: rgba(74, 74, 74, 0.537254902);
+  border-radius: 40px;
+  z-index: 999;
+}
+.nav .nav-item {
+  margin: 0 0.5rem;
+  color: #bdbdbd;
+  transition: all 0.3s;
+}
+.nav .nav-item:hover {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #158d5d;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #252525;
+  padding: 2rem;
+  width: 100dvw;
+  overflow-x: hidden;
 }
 
 /*# sourceMappingURL=estilos.css.map */
