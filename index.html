@@ -3,22 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- iconos -->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="./css/estilos.css">
-    <title>Natanael</title>
+    <title>Portafolio | Natanael</title>
+    <link rel="stylesheet" href="/css/estilos.css">
 </head>
 <body>
     <header class="header">
-        <div class="titulo">
-            <a class="saludo" href="./index.html">Natanael</a>
-        </div>
-        <div class="social">
-            
-            <span class="reloj" id="reloj"></span>
-            <span class="fecha" id="fecha"></span>
+        <h1>Natanael</h1>
+        <div class="clock-container">
+            <span id="reloj" class="clock">18:41</span>
+            <span id="fecha" class="date">12 Mayo</span>
         </div>
     </header>
-    <script src="./js/reloj.js"></script>
+
+    <main class="container">
+        <section class="intro">
+            <h2>Desarrollador FRONTEND</h2>
+            <p>Desarrollo soluciones web intuitivas y responsivas. Me encuentro en constante aprendizaje de nuevas tecnologías para crear interfaces funcionales y modernas.</p>
+        </section>
+
+        <section class="about-me">
+            <h3>SOBRE MÍ</h3>
+            <div class="about-content">
+                <p>Hola, soy Natanael. Con 2 años de experiencia en el mundo de la programación, me especializo en crear interfaces funcionales y estéticas usando <strong>SCSS y JavaScript</strong>.</p>
+                <h4>Mi Enfoque y Proceso</h4>
+                <div class="features">
+                    <span>✔ Funcionalidad</span>
+                    <span>🎨 Estética</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills">
+            <h3>HABILIDADES TÉCNICAS Y HERRAMIENTAS</h3>
+            <div class="skills-grid">
+                <div class="skill-card">HTML5</div>
+                <div class="skill-card">CSS3</div>
+                <div class="skill-card">Sass/SCSS</div>
+                <div class="skill-card">JavaScript</div>
+                <div class="skill-card">Git</div>
+                <div class="skill-card">GitHub</div>
+                <div class="skill-card">Firebase</div>
+                <div class="skill-card">Supabase</div>
+                <div class="skill-card">Figma</div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Conéctate con Natanael</p>
+        <div class="social-icons">
+            <!-- Aquí irían tus links de LinkedIn y GitHub -->
+        </div>
+    </footer>
+
+    <script src="/js/reloj.js"></script>
 </body>
 </html>
