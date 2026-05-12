@@ -5,6 +5,9 @@ body {
   margin: 0;
   padding: 2rem;
 }
+body a {
+  text-decoration: none;
+}
 
 .header {
   display: flex;
@@ -16,6 +19,9 @@ body {
 .header h1 {
   font-size: 2.5rem;
   font-weight: 600;
+}
+.header h1 a {
+  color: #e0e0e0;
 }
 .header .clock-container {
   text-align: right;
