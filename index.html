@@ -4,58 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio | Natanael</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/estilos.css">
 </head>
 <body>
     <header class="header">
-        <h1><a href="./index.html">Natanael</a></h1>
-        <div class="clock-container">
-            <span id="reloj" class="clock">18:41</span>
-            <span id="fecha" class="date">12 Mayo</span>
+        <div class="container header-flex">
+            <h1><a href="./index.html">Natanael</a></h1>
+            <div class="clock-container">
+                <span id="reloj" class="clock">00:00</span>
+                <span id="fecha" class="date">-- ---</span>
+            </div>
         </div>
     </header>
 
     <main class="container">
         <section class="intro">
             <h2>Desarrollador FRONTEND</h2>
-            <p>Desarrollo soluciones web intuitivas y responsivas. Me encuentro en constante aprendizaje de nuevas tecnologías para crear interfaces funcionales y modernas.</p>
+            <p>Desarrollo soluciones web intuitivas y responsivas. Me encuentro en constante aprendizaje de nuevas tecnologías.</p>
         </section>
 
-        <section class="about-me">
-            <h3>SOBRE MÍ</h3>
-            <div class="about-content">
-                <p>Hola, soy Natanael. Con 2 años de experiencia en el mundo de la programación, me especializo en crear interfaces funcionales y estéticas usando <strong>SCSS y JavaScript</strong>.</p>
-                <h4>Mi Enfoque y Proceso</h4>
-                <div class="features">
-                    <span>✔ Funcionalidad</span>
-                    <span>🎨 Estética</span>
-                </div>
+        <section class="projects" id="proyectos-seccion">
+            <h3>PROYECTOS DESTACADOS</h3>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <h4>Gestión Cannábica</h4>
+                    <p>App administrativa con control de inventario y gestión de socios.</p>
+                    <div class="project-tags"><span>JavaScript</span><span>Firebase</span></div>
+                    <a href="#" class="project-link">Ver Proyecto ↗</a>
+                </article>
+
+                <article class="project-card">
+                    <h4>Fisioterapia App</h4>
+                    <p>Sistema de reserva de turnos y ficha clínica digital.</p>
+                    <div class="project-tags"><span>Supabase</span><span>Figma</span></div>
+                    <a href="#" class="project-link">Ver Proyecto ↗</a>
+                </article>
+
+                <article class="project-card">
+                    <h4>E-commerce Dash</h4>
+                    <p>Panel de control para visualización de estadísticas de ventas.</p>
+                    <div class="project-tags"><span>Sass</span><span>Charts.js</span></div>
+                    <a href="#" class="project-link">Ver Proyecto ↗</a>
+                </article>
+
+                <article class="project-card">
+                    <h4>Clima Dinámico</h4>
+                    <p>Interfaz que consume APIs climáticas con modo oscuro.</p>
+                    <div class="project-tags"><span>API Rest</span><span>JS ES6</span></div>
+                    <a href="#" class="project-link">Ver Proyecto ↗</a>
+                </article>
             </div>
         </section>
 
         <section class="skills">
-            <h3>HABILIDADES TÉCNICAS Y HERRAMIENTAS</h3>
+            <h3>HABILIDADES</h3>
             <div class="skills-grid">
                 <div class="skill-card">HTML5</div>
                 <div class="skill-card">CSS3</div>
-                <div class="skill-card">Sass/SCSS</div>
+                <div class="skill-card">SCSS</div>
                 <div class="skill-card">JavaScript</div>
-                <div class="skill-card">Git</div>
-                <div class="skill-card">GitHub</div>
                 <div class="skill-card">Firebase</div>
                 <div class="skill-card">Supabase</div>
-                <div class="skill-card">Figma</div>
+            </div>
+        </section>
+
+        <section id="contacto" class="contact">
+            <h3>CONTACTO</h3>
+            <div class="contact-grid">
+                <a href="#" class="contact-item">LinkedIn</a>
+                <a href="#" class="contact-item">Instagram</a>
+                <a href="mailto:tu-correo@ejemplo.com" class="contact-item">Correo</a>
+            </div>
+            <div class="cv-container">
+                <a href="#" download class="btn-cv">Descargar CV</a>
             </div>
         </section>
     </main>
 
     <footer class="footer">
-        <p>Conéctate con Natanael</p>
-        <div class="social-icons">
-            <!-- Aquí irían tus links de LinkedIn y GitHub -->
-        </div>
+        <p>© 2026 Natanael - Montevideo, Uruguay</p>
     </footer>
 
-    <script src="/js/reloj.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="./js/reloj.js"></script>
 </body>
 </html>
